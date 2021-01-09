@@ -1,0 +1,88 @@
+.header{
+    font-size: 26px;
+    color: #a71717;
+    margin: 0 auto;
+    text-align: center;
+}
+.nav{
+    height: 40px;
+    width: 900px;
+    background-color: #b4b1b1;
+    margin: 0 auto;
+}
+.tab1,.tab2,.tab3,.tab4{
+    height: 38px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+    /*border: red 1px solid;*/
+}
+.banner{
+    width: 900px;
+    height: 400px;
+    background-image: url('/static/images/img1.jpg');
+    margin: 0 auto;
+    /*图片重复排列--取消*/
+    background-repeat: no-repeat;
+    /*css3图片背景设置*/
+    background-size: 100% 100%;
+    margin-bottom: 8px;
+}
+.content{
+    width: 900px;
+    height: 360px;
+    margin: 0 auto;
+    /*background-color: antiquewhite;*/
+}
+/*鼠标悬停*/
+/*.content:hover{*/
+/*    background-color: coral;*/
+/*    box-shadow: 5px 5px 5px black;*/
+/*}*/
+.news1,.news2,.news3{
+    width: 280px;
+    height: 360px;
+    margin: 0 auto;
+    float: left;
+    margin-left: 15px;
+    /*background-color: darkcyan;*/
+    border: black 1px solid;
+}
+.news1:hover{
+    box-shadow: 5px 5px 5px #b4b1b1;
+}
+.news2:hover{
+    box-shadow: 5px 5px 5px #b4b1b1;
+}
+.news3:hover{
+    box-shadow: 5px 5px 5px #b4b1b1;
+}
+.img01,.img02,.img03{
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+    background-image: url("/static/images/img4.jpg");
+}
+.title01,.title02,.title03{
+    width: 280px;
+    height: 60px;
+    font-size: 18px;
+}
+.main_title{
+    width: 280px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.time_img,.found_img,.death_reason_img{
+    width:900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+

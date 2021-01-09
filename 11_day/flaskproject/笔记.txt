@@ -1,0 +1,15 @@
+
+web server
+解释和执行 动态语言
+java(jsp)     tomcat
+php           apache
+asp.net(c#)   IIS
+
+
+python
+    （1）手写web服务器 --库多
+    （2）web框架
+         django
+         flask
+
+

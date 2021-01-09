@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>爬虫数据展示</title>
+    <link href="/static/css/style_datashow.css" rel="stylesheet">
+</head>
+<body>
+<!--{% for r_data in result %}-->
+<!--    {{r_data[1]}}-->
+<!--{%endfor%}-->
+
+
+<!--jinja2 模板语言-->
+<!--{{result}}-->
+<table>
+    <tr class="table_header">
+        <td>公司名称</td>
+        <td>建立时间</td>
+        <td>注销时间</td>
+        <td>公司类型</td>
+        <td>公司位置</td>
+        <td>融资情况</td>
+        <td>注销原因</td>
+    </tr>
+    {% for r_data in result %}
+    <tr class="table_content">
+        <td>{{r_data[1]}}</td>
+        <td>{{r_data[3]}}</td>
+        <td>{{r_data[4]}}</td>
+        <td>{{r_data[5]}}</td>
+        <td>{{r_data[6]}}</td>
+        <td>{{r_data[9]}}</td>
+        <td>{{r_data[11]}}</td>
+    </tr>
+    {%endfor%}
+</table>
+
+</body>
+</html>

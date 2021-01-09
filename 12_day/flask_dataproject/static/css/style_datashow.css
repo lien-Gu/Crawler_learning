@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+}
+table{
+    height: 1200px;
+    width: 1000px;
+    border: 2px solid pink;
+    background-color: #e2dfdf;
+    margin: 0 auto;
+}
+td{
+    border:1px solid dimgrey;
+    text-align: center;
+}
+.table_content:nth-child(odd){
+    background-color: pink;
+}
+.table_header{
+    background-color: lightcoral;
+}
+.table_content:hover{
+    background-color: cornsilk;
+}

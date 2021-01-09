@@ -1,0 +1,121 @@
+/*.img01{
+    width:200px;
+    heigth:100px;
+}
+.d1{
+    width: 300px;
+    heigth: 200px;
+    /*背景图片*/
+    /*background-image: url("/static/images/img2.jpg");
+    /*边框*/
+    /*border-left:solid red 3px；
+    /*border-bottom:dotted blue 5px;
+    /*border-right:double
+    border-top:*/
+    /*四边边框*/
+    /*border:10px;
+}
+.d2{
+    border:2px black solid;
+    heigth:395px;
+    weight:393px;
+}
+.d3{
+    font-size:16px;
+    font-family: '微软雅黑',sans-serif;
+    text-align:center;
+}
+.d3_1{
+    font-weight:bold;
+
+
+.d1{
+width:200px;
+height:100px;
+background-color:red;
+/*浮动  脱离标准流*/
+/*}
+.d2{
+width:200px;
+height:100px;
+background-color:green;
+float:left;
+}
+.d3{
+width:200px;
+height:100px;
+background-color:yellow;
+/*清除浮动*/
+/*clear:both;
+}
+.d4{
+width:200px;
+height:100px;
+background-color:blue;
+}
+}*/
+.d5{
+height:95px;
+width:1200px;
+font-family: 'Myriad Pro','微软雅黑';
+font-size: 28px;
+}
+.d5_1{
+font-wight:bold;
+float:left;
+height:56px;
+width:126px;
+line-height:56px;
+text-align:center;
+}
+.d5_2{
+font-wight:bold;
+font-color:#798187;
+}
+.d5_3{
+font-size: 16px;
+float:right;
+line-height:20.8px;
+text-align:center;
+height:20.8px;
+width:48px;
+}
+.d6{
+height:520px;
+width:1200px;
+}
+.d6_1{
+height:520px;
+width:595px;
+float:left;
+}
+.d6_2{
+height:520px;
+width:595px;
+float:left;
+border-left:solid black 2px;
+}
+.d6_2_1{
+font-family: 'Myriad Pro','微软雅黑';
+height:132.6px;
+width:533px;
+}
+.d6_2_1_1{
+float:left;
+}
+.d6_2_1_2{
+font-size: 18px;
+}
+.d6_2_1_1_1{
+font-size: 26px;
+}
+.d6_2_1_1_2{
+font-size: 14px;
+color: #798187;
+}
+.d6_2_1_2_1{
+color: #3b3e40;
+}
+.d6_2_1_2_2{
+color: #798187;
+}
