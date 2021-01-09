@@ -1,0 +1,65 @@
+1、元组tuple()
+元素不可修改
+
+2、集合set{}
+{1,2,3,4}不允许重复,无序，不可用下标表示
+
+3、函数
+# 其他语言函数定义
+function f1(参数){
+    函数体
+    return
+}
+#python
+def 函数名(参数):
+    函数体
+    return 返回值
+函数调用：
+函数名（参数）
+
+特点：参数
+
+4、文件I/O
+f1=open(文件名,文件模式)
+f1.write(文件内容)
+文件内容=f1.read()
+f1.close() 关闭
+
+# 简写 --自动关闭
+with open(文件名,文件模式) as f1:
+    f1.write(文件内容)
+
+os库
+path库
+sys库
+
+W 将文件内容清空，再写入新内容
+a 在原文件内容后追加
+r 读取文件
+
+wb 二进制数据写入
+rb 二进制数据读取
+
+
+5、爬虫
+requests
+urllib
+bs4
+正则表达式
+scrapy框架
+反爬虫
+
+html css js
+<form action="" method>
+    <input>
+</form>
+
+响应状态：
+200 响应成功
+404 没找到页面
+500 服务器错误
+
+
+
+
+

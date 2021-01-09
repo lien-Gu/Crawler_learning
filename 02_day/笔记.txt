@@ -1,0 +1,47 @@
+1、while循环
+while 条件:
+    语句体
+
+while 条件:
+    语句体
+else:
+    语句体
+2、异常处理
+try:
+    语句体
+except (异常类型,ValueRError,TypeError,...):
+    语句体
+
+try:
+    语句体
+except Exception:# Exception万能异常
+    语句体
+
+try:
+    语句体
+except Exception as ep:# as别名
+    语句体
+
+# raise 自定义异常 family...
+
+
+3、for循环
+python for循环 ---迭代器与生成器
+for i in 数据集合:
+    语句
+4、列表list 类似数组
+
+5、字典 dict[]
+类似于json 轻量级数据传输格式
+{key:value...}
+
+
+
+
+
+
+
+
+
+
+
