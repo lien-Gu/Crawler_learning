@@ -1,0 +1,34 @@
+python源码分析
+cpython解析器
+1、include：python提供的头文件
+            用c++扩展python模块时，可用该头文件
+2、lib：python自带的标准库
+3、modules：c语言编写的模块 -math  -random
+4、parser:对词法、语法进行分析
+5、objects：python内置对象
+6、python：python解析器中的编译与执行引擎部分，python的运行核心
+
+python语法
+1、单行注释 #
+2、多行注释 ''' '''  """ """
+3、转义字符
+\n
+\r
+4、缩进：python用缩进表示代码块（如java用{}表示）
+5、条件语句：
+if 条件:
+    语句体
+elif 条件：
+    语句体
+else：
+    语句体
+6、/ 完全除 %取模（取余） //取整
+7、数值类型
+  数值型
+  字符型
+  布尔型 True False
+
+  列表list []
+  字典dict {key:value,...}
+  元组tuple () 不可更改
+  集合set {} 去重
